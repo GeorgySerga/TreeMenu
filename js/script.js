@@ -1,5 +1,3 @@
-// засунуть все в self invoked function
-
 (function() {
   // Create tree vars
   var container = document.getElementById('menuContainer');
