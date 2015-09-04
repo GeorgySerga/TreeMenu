@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+#menuContainer a.closed:before {
+  content: '> ';
+}
+
+#menuContainer a.open {
+  color: #666;
+}
+
+#menuContainer a.open:before {
+  content: '\\/ ';
+}
